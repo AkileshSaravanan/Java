@@ -1,3 +1,3 @@
 # Java
 
-Myself Learning
+My self Learning on java.
