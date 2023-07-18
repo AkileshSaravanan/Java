@@ -10,7 +10,6 @@ The files provided contain codes on **JAVA**,
 
 I started from scratch and advanced my skills in **JAVA** by on **VISUAL CODE STUDIO**,
 
-
 To know more about me or to follow my work, you can visit me on,
 
 <li><a href="http://www.linkedin.com/in/Akilesh--S">LinkedIn</a> 
