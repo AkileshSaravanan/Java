@@ -1,6 +1,6 @@
 # Java
 
-# AUTHOR = AKILESH S,
+# AUTHOR = AKILESH S
 
 My self Learning on java,
 
