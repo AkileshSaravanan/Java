@@ -1,0 +1,11 @@
+//Print Integer in java
+public class PrintInteger{
+    public static void main(String args[])
+    {
+        int i;
+        for(i=0;i<=10;i++)
+        {
+            System.out.println(i);
+        }
+    }
+}
