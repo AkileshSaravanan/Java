@@ -33,7 +33,7 @@ public class AddTwoMatrix
                 sum[i][j] = first[i][j] + second [i][j]; 
             }
         }
-        System.out.println("The Sum of Two Matric is :");
+        System.out.println("The Sum of Two Matrix is :");
         for(int i=0;i<m;i++)
         {
             for(int j=0;j<n;j++)

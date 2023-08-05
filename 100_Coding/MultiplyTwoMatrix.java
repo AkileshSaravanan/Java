@@ -1,6 +1,6 @@
-//How to sub two matrix in java Program
+//How to Mulltiply two matrix in java Program
 import java.util.Scanner;
-public class SubTwoMatrix
+public class MulltiplyTwoMatrix
 {
     public static void main(String args[])
     {
@@ -11,7 +11,7 @@ public class SubTwoMatrix
         int n = s.nextInt();
         int first[][] = new int [m][n];
         int second[][] = new int [m][n];
-        int sub[][] = new int [m][n];
+        int mul[][] = new int [m][n];
         for(int i=0;i<m;i++)
         {
             for(int j=0;j<n;j++)
@@ -30,15 +30,15 @@ public class SubTwoMatrix
         {
             for(int j=0;j<n;j++)
             {
-                sub[i][j] = first[i][j] - second [i][j]; 
+                mul[i][j] = first[i][j] * second [i][j]; 
             }
         }
-        System.out.println("The Sub of Two Matrix is :");
+        System.out.println("The Multiplication of Two Matrix is :");
         for(int i=0;i<m;i++)
         {
             for(int j=0;j<n;j++)
             {
-                System.out.print(sub[i][j]+"\t"); 
+                System.out.print(mul[i][j]+"\t"); 
             }
             System.out.println();
         }
