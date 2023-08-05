@@ -1,17 +1,17 @@
 //How to Mulltiply two matrix in java Program
 import java.util.Scanner;
-public class MulltiplyTwoMatrix
+public class MultiplyTwoMatrix
 {
     public static void main(String args[])
     {
         Scanner s = new Scanner(System.in);
-        System.out.println("Enter the no of rows:");
+        int first[][] = new int [10][10];
+        int second[][] = new int [10][10];
+        int mul[][] = new int [10][10];
+        System.out.println("Enter the no of rows and columns of First Matrix:");
         int m = s.nextInt();
-        System.out.println("Enter the no of columns");
-        int n = s.nextInt();
-        int first[][] = new int [m][n];
-        int second[][] = new int [m][n];
-        int mul[][] = new int [m][n];
+        int n = s.nextInt();                
+        System.out.println("Enter Elements of First Matrix");
         for(int i=0;i<m;i++)
         {
             for(int j=0;j<n;j++)
@@ -19,9 +19,13 @@ public class MulltiplyTwoMatrix
                 first[i][j] = s.nextInt(); 
             }
         }
-        for(int i=0;i<m;i++)
+        System.out.println("Enter the no of rows and columns of second Matrix:");
+        int p = s.nextInt();
+        int q = s.nextInt();
+        System.out.println("Enter Elements of Second Matrix");
+        for(int i=0;i<p;i++)
         {
-            for(int j=0;j<n;j++)
+            for(int j=0;j<q;j++)
             {
                 second[i][j] = s.nextInt(); 
             }
@@ -30,13 +34,16 @@ public class MulltiplyTwoMatrix
         {
             for(int j=0;j<n;j++)
             {
-                mul[i][j] = first[i][j] * second [i][j]; 
+                for(int k=0;k<q;k++)
+                {
+                    mul[i][j] += first[i][k] * second [k][j];
+                }                 
             }
         }
         System.out.println("The Multiplication of Two Matrix is :");
         for(int i=0;i<m;i++)
         {
-            for(int j=0;j<n;j++)
+            for(int j=0;j<q;j++)
             {
                 System.out.print(mul[i][j]+"\t"); 
             }
