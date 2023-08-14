@@ -1,6 +1,6 @@
 //How to SQL Date in java Program
 import java.sql.Date;
-public class StringToSQLDate
+public class StringToSqlDate
 {
     public static void main(String[] args) 
         { 
