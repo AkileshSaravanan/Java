@@ -21,8 +21,8 @@ public class LinearSearch
     if (array[c] == search) 
     {
         System.out.println(search + " is present at location " + (c + 1) +".");
+        break;
     }
-    break;
     }
     if (c == n) 
     System.out.println(search + " is not present in array.");
