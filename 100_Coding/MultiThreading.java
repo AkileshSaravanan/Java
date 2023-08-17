@@ -7,7 +7,7 @@ class MultiThreading extends Thread
     }
     public static void main(String args[])
     { 
-        Multi t1=new Multi();
+        MultiThreading t1=new MultiThreading();
         t1.start();
     }
 }
