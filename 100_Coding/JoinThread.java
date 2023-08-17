@@ -17,9 +17,9 @@ class JoinThread extends Thread{
     }
     public static void main(String args[])
     { 
-        TestJoinMethod1 t1=new TestJoinMethod1(); 
-        TestJoinMethod1 t2=new TestJoinMethod1(); 
-        TestJoinMethod1 t3=new TestJoinMethod1(); 
+        JoinThread t1=new JoinThread(); 
+        JoinThread t2=new JoinThread(); 
+        JoinThread t3=new JoinThread(); 
         t1.start();
         try
         { 
