@@ -7,7 +7,7 @@ public class GetURL
     {
         try
         {
-            URL url=new URL("http://www.technolamror.com/java");
+            URL url=new URL("https://github.com/AkileshSaravanan");
             System.out.println("Protocol: "+url.getProtocol()); 
             System.out.println("Host Name: "+url.getHost()); 
             System.out.println("Port Number: "+url.getPort()); 
