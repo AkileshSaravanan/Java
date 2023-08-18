@@ -7,7 +7,7 @@ public class GetIP
     {
         try
         {
-            InetAddress ip=InetAddress.getByName("https://www.linkedin.com/in/Akilesh--S");
+            InetAddress ip=InetAddress.getByName("www.linkedin.com");
             System.out.println("Host Name: "+ip.getHostName()); 
             System.out.println("IP Address: "+ip.getHostAddress());
         }
