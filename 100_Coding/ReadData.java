@@ -6,7 +6,7 @@ public class ReadData
     {
         try
         {
-            FileInputStream fin=new FileInputStream("D:\\Technolamror.txt");
+            FileInputStream fin=new FileInputStream("E:\Java\100_Coding\Java\100_Coding\Hello.txt");
             int i=fin.read(); 
             System.out.print((char)i);
             fin.close();
