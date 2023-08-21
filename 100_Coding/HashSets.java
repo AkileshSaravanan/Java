@@ -10,8 +10,8 @@ class HashSets
     set.add("RMS");
     set.add("RM"); 
     set.add("KNR");
-    //Traversing elements Iterator<String> 
-    itr=set.iterator(); 
+    //Traversing elements 
+    Iterator<String> itr=set.iterator(); 
     while(itr.hasNext())
     { 
         System.out.println(itr.next());
