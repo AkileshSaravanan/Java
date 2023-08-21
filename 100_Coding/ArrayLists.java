@@ -1,6 +1,6 @@
 //Create ArrayList program in java
 import java.util.*; 
-class ArryaLists
+class ArrayLists
 {
     public static void main(String args[]){
     ArrayList<String> list=new ArrayList<String>();//Creating arraylist 
