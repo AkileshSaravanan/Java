@@ -5,11 +5,11 @@ class PriorityQueues
     public static void main(String args[])
     { 
         PriorityQueue<String> queue=new PriorityQueue<String>(); 
-        queue.add("Rajendra");
-        queue.add("Mahendra"); 
-        queue.add("Raja");
-        queue.add("Technolamror"); 
-        queue.add("Rahul");
+        queue.add("RMSA");
+        queue.add("RMS"); 
+        queue.add("RM");
+        queue.add("KNR"); 
+        queue.add("KN");
         System.out.println("head:"+queue.element()); 
         System.out.println("head:"+queue.peek()); 
         System.out.println("iterating the queue elements:"); 
