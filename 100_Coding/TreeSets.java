@@ -1,4 +1,4 @@
-//////How to create TreeSet program in java
+//How to create TreeSet program in java
 import java.util.*;
 class TreeSets
 {
