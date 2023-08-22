@@ -1,11 +1,11 @@
-////How to create LinkedHashset program in java
+//////How to create TreeSet program in java
 import java.util.*;
-class LinkedHashSets
+class TreeSets
 {
     public static void main(String args[])
     {
-    //Creating LinkedHashSet and adding elements 
-    LinkedHashSet<String> set=new LinkedHashSet<String>(); 
+    //Creating TreeSet and adding elements 
+    TreeSet<String> set=new TreeSet<String>(); 
     set.add("RMSA");
     set.add("RMS");
     set.add("RM"); 
