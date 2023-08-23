@@ -1,5 +1,5 @@
 //How to create Multidimensional array program in java 
-class MultidimensionalArray
+class MultiDimensionalArray
 {
     public static void main(String args[])
     {
