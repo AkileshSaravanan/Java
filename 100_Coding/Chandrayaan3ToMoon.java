@@ -4,7 +4,7 @@ public class Chandrayaan3ToMoon
     {
         System.out.println("🇮🇳🚀🌕 Chandrayaan 3: \"Hello, Moon!\"");
         System.out.println("=======================================");
-        System.out.println("|         🛰️ Chandrayaan 3 Speaking...        |");
+        System.out.println("|         🛰️  Chandrayaan 3 Speaking...        |");
         System.out.println("|       🌌 \"I've Landed Safely on You!\"       |");
         System.out.println("|    🇮🇳 India's Message to the Cosmos!    |");
         System.out.println("|           🌠 Let's Explore Together!         |");
