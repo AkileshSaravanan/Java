@@ -15,7 +15,7 @@ public class FindingMin {
         Arrays.sort(arr);
         
         int temp[] = new int[k];
-        int max = Integer.MIN_VALUE, min = Integer.MAX_VALUE;
+        int max = 0, min = 9999999;
         
         for(int i = 0; i < k; i++) {
             temp[i] = arr[i];
