@@ -2,11 +2,11 @@
 
 # AUTHOR = AKILESH S
 
-I self Learning java,
+Myself Learning java,
 
 The codes and information listed above are unique and it is open source to use,
 
-The files provided contains codes on **JAVA**,
+The files provided contain codes on **JAVA**,
 
 I started from scratch and advanced my skills in **JAVA** by on **VISUAL CODE STUDIO**,
 
