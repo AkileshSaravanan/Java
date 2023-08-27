@@ -2,7 +2,7 @@
 
 # AUTHOR = AKILESH S
 
-Myself Learning java,
+Myself learning Java,
 
 The codes and information listed above are unique and it is open source to use,
 
