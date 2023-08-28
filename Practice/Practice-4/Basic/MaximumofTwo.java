@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class MaximumOfTwo
+public class MaximumofTwo
 {
     public static void main(String args[])
     {
