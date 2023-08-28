@@ -30,7 +30,7 @@ public class CalculatorSwitch
         
             default:
                 System.out.println("You have entered wrong operator");
-                break;
+                return;
         }
         System.out.println(a + " " + oper + " " + b + "= " + c);
     }
