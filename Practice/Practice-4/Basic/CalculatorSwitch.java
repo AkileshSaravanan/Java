@@ -24,7 +24,7 @@ public class CalculatorSwitch
                 c = a * b;
                 break;
 
-            case '*':
+            case '/':
                 c = a / b;
                 break;
         
