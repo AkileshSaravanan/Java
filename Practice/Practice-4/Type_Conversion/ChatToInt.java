@@ -7,6 +7,6 @@ public class ChatToInt
         int a = c;
         int b = c1;
         System.out.println(a);
-        System.out.println(a);
+        System.out.println(b);
     }
 }
