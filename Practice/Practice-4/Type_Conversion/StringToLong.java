@@ -1,4 +1,4 @@
-public class StringToInt
+public class StringToLong
 {
     public static void main(String args[])
     {
