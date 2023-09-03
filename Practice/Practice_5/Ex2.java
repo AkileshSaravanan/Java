@@ -20,7 +20,6 @@ Output format :
 The output displays the Excel Column Value of the corresponding integer.
 */
 
-
 import java.util.Scanner;
 public class Ex2
 {
