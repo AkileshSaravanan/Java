@@ -23,7 +23,7 @@ Output 1 :
  */
 
 import java.io.*;
-import java.util.*;
+import java.util.Scanner;
 public class Ex3
 {
     static void printUnique(int l,int r)
@@ -31,8 +31,7 @@ public class Ex3
         for(int i=l;i<=r;i++)
         {
             int num = i;
-            boolean visited[] = new boolean[10];
-            
+            boolean visited[] = new boolean[10];            
             while(num!=0)
             {
                 if(visited[num%10])
