@@ -1,7 +1,9 @@
 /*
 Problem Statement
 When a particular range is given to Kyle, he writes down all the values within that range which consists of unique digits. 
-For example, if the range 10-30 is given, he writes down all the values except 11 and 22 since their digits are repeated. However, when large ranges are given, he finds it difficult to identify the numbers. Help him by writing a code that prints all the values in the range that satisfy the given condition.
+For example, if the range 10-30 is given, he writes down all the values except 11 and 22 since their digits are repeated. 
+However, when large ranges are given, he finds it difficult to identify the numbers. 
+Help him by writing a code that prints all the values in the range that satisfy the given condition.
 
 Input format :
 The input consists of the range values x and y.
