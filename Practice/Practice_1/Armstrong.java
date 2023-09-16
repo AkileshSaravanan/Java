@@ -12,7 +12,6 @@ public class Armstrong {
             sum += Math.pow(digit, 3);
             temp /= 10;
         }
-
         if(num == sum)
             System.out.println(num+ " is an Armstrong number");
         else
