@@ -23,6 +23,7 @@ Output format :
 The output displays the number of occurrences of a digit x in the digits of numbers lying in the range between l and u.
  */
 
+
 import java.util.*;
 public class Ex1
 {
