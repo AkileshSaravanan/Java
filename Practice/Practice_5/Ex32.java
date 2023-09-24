@@ -11,7 +11,7 @@ public class Ex32
         Scanner s = new Scanner(System.in);
         String s1 = s.nextLine();
         String s2 = s.nextLine();
-        s3 = BeforeAfter(s1,s2);
+        String s3 = BeforeAfter(s1,s2);
         System.out.println(s3);
     }
     public static String BeforeAfter(String str, String word)
@@ -19,24 +19,24 @@ public class Ex32
         String result = "";
         for(int i=0;i<str.length();i++)
         {
-            if(word.lenght() == str.length())
+            if(word.length() == str.length())
             {
                 return "";
             }
             else if(i + word.length() == str.length() && str.substring(i,i+word.length()).equals(word))
             {
-                result += Charcter.toString(str.charAt(str.length() - word.length() -1));
+                result += Character.toString(str.charAt(str.length() - word.length() -1));
                 return result;
             }
             else if(i + word.length() < str.length() && str.substring(i,i+word.length()).equals(word))
             {
                 if(i==0)
                 {
-                    result += Charcter.toString(str.charAt(i - 1));
+                    result += Character.toString(str.charAt(i - 1));
                 }
                 else
                 {
-                    result += Charcter.toString(str.charAt(i + word.length()));
+                    result += Character.toString(str.charAt(i + word.length()));
                 }
             }
         }
