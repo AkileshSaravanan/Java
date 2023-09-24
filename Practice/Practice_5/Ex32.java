@@ -32,12 +32,13 @@ public class Ex32
             {
                 if(i==0)
                 {
-                    result += Character.toString(str.charAt(i - 1));
+                    
                 }
                 else
                 {
-                    result += Character.toString(str.charAt(i + word.length()));
+                    result += Character.toString(str.charAt(i - 1));
                 }
+                result += Character.toString(str.charAt(i + word.length()));
             }
         }
         return result;
