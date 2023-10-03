@@ -2,9 +2,11 @@
 You are provided two non-empty input strings (inp1 and inp2).
 Your task is to return a new string that contains each char before and after every appearance of the inp2 string in the inp1 string. 
 For example. If inputs are "abdXY223XYijk" and "XY", output should be "d23r".
+
 Sample Input:
 abvXY223XYijk
 XY
+
 Sample Output:
 v23i
 */
