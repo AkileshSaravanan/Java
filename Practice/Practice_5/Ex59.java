@@ -19,7 +19,7 @@ bcbc
 cdcd
 */
 import java.util.Scanner;
-public class Codechef
+public class Ex59
 {
 	public static void main (String[] args)
 	{
